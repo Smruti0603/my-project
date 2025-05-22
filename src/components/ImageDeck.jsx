@@ -27,7 +27,7 @@ export default function ImageDeck() {
   };
 
   return (
-    <div className="relative w-[450px] h-[600px] rounded-xl overflow-hidden shadow-lg">
+    <div relative w-full max-w-[450px] h-[400px] sm:h-[450px] md:h-[500px] rounded-xl overflow-hidden shadow-lg">
       <img
         src={images[currentImageIndex]}
         alt="About Me"
